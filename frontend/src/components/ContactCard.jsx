@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 const ContactCard = ({ photo, firstName, lastName, jobTitle, company, email, phoneNumber, onDelete, onEdit }) => {
   return (
-    <Card sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, bgcolor: color[100], p: 2, borderRadius: 4, margin: 6, width: 'calc(80% - 32px)', height: { xs: 'auto', md: 100 } }}>
+    <Card sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, bgcolor: color[100], p: 2, borderRadius: 4, m:6, width: 'calc(80% - 32px)', height: { xs: 'auto', md: 100 } }}>
       <CardMedia
         component="img"
         sx={{ width: { xs: '100%', md: 100 }, height: { xs: 'auto', md: 100 }, bgcolor: color[100], borderRadius: 2 }}
